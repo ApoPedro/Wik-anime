@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anime+Ace&display=swap');
+@font-face {
+    font-family: 'Manga Temple';
+    src: url('chemin/vers/votre/fichier/MangaTemple.ttf') format('truetype');
+}
+
+.navbar {
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.1rem black;
+    border-radius: 0.1rem;
+    font-family: 'Anime Ace', sans-serif;
+}
+.logo {
+    font-family: 'Manga Temple', sans-serif;
+    font-size: xx-large;
+    color: red;
+}
+.navbar ul {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > .item {
+    margin-left: 3rem;
+}
+
+.item  > a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.item > a:hover {
+    color: rgb(98, 96, 96);
+}
