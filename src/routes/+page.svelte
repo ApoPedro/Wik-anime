@@ -18,14 +18,13 @@
     </div>
 </div>
 
-
-
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Anime+Ace&display=swap');
     .recent {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 3rem;
     }
 
 </style>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anime+Ace&display=swap');
 @font-face {
     font-family: 'Manga Temple';
-    src: url('chemin/vers/votre/fichier/MangaTemple.ttf') format('truetype');
+    src: url('../../assets/manga_temple/mangat.ttf') format('truetype');
 }
 
 .navbar {
