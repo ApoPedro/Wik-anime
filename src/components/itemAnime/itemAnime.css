@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anime+Ace&display=swap');
+
+.item-anime {
+    font-family: 'Anime Ace', sans-serif; 
+    font-size: larger;
+    width: 160px;
+    height: 220px;
+    border-radius: 0.8rem;
+}
+.item-img {
+    width: 160px;
+    height: 220px;
+}
+.item-img > img {
+    width: 160px;
+    height: 220px;
+    border-radius: 0.8rem;
+    width: inherit;
+    height: inherit;
+}
+.item-anime > .content {
+    padding: 0.3rem;
+    text-align: center;
+}
+.item-anime:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
